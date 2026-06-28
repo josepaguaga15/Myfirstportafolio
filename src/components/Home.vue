@@ -125,7 +125,7 @@ const scrollTo = (section) => {
   </section>
 
   <footer class="site-footer">
-    © 2025 Jose Paguaga · JAK Technologies
+    © 2026 Jose Paguaga · JAK Technologies
   </footer>
 </template>
 
