@@ -59,7 +59,7 @@ const scrollTo = (section) => {
   <section class="about-section">
     <h2 id="about">About Me</h2>
     <div class="about-grid">
-      <img class="about-img" src="/images/myphoto2.png" alt="Jose Paguaga">
+      <img class="about-img" src="/images/aboutmepic.jpeg" alt="Jose Paguaga">
       <div class="about-text">
         <h3>Jose Paguaga</h3>
         <p>Motivated Junior Frontend Developer skilled in HTML, CSS, JavaScript, and responsive design. Focused on building clean, user-friendly interfaces, with experience in React and Git. Strong problem-solver, team player, and eager to keep learning and improving.</p>
