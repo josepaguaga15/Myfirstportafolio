@@ -12,8 +12,8 @@ const sendmessage = () => {
 
 const downloadCV = () => {
   const link = document.createElement('a');
-  link.href = '/cv.pdf';
-  link.download = 'Jose_Paguaga_CV.pdf';
+  link.href = `${import.meta.env.BASE_URL}JosePaguagaCV.pdf`;
+  link.download = 'Jose_Paguaga_CV.pdf'; 
   link.click();
 }
 
@@ -27,15 +27,15 @@ const scrollTo = (section) => {
 
 <template>
   <header>
-    <nav class="Header-nav">
-      <a href="/" class="nav-link">Home</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
+   <nav class="Header-nav">
+      <a href="#" class="nav-link" @click.prevent="scrollTo('home')">Home</a>
+      <a href="#" class="nav-link" @click.prevent="scrollTo('about')">About</a>
+      <a href="#" class="nav-link" @click.prevent="scrollTo('skills')">Skills</a>
     </nav>
     <nav class="Header-mobilenav">
-      <a href="/" class="nav-link">Home</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#" class="nav-link" @click.prevent="scrollTo('home')">Home</a>
+      <a href="#" class="nav-link" @click.prevent="scrollTo('about')">About</a>
+      <a href="#" class="nav-link" @click.prevent="scrollTo('skills')">Skills</a>
     </nav>
   </header>
 
