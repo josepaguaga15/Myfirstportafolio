@@ -35,6 +35,16 @@ header {
   color: black;
 }
 
+/* 
+  Añadimos .router-link-exact-active para que cuando la ruta coincida 
+  exactamente, aplique el fondo blanco y texto negro de forma permanente
+*/
+.nav-link:hover,
+.nav-link.router-link-exact-active {
+  background: white;
+  color: black !important; /* El !important asegura que rompa el 'color: white' del selector universal '*' */
+}
+
 /*content */
 .projects-section{
   text-align: center;
