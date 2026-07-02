@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../components/Home.vue";
+import projects from "../components/projects.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,15 +12,11 @@ const router = createRouter({
             component: Home
         },
         {
-            path: "/about",
-            name: "About",
-            component: Home  // Replace with About.vue when ready
-        },
-        {
             path: "/projects",
-            name: "Projects",
-            component: Home  // Replace with Projects.vue when ready
-        },
+            name: "projects",
+            component: projects  
+        }
+        
     ],
 
     scrollBehavior() {

@@ -30,12 +30,12 @@ const scrollTo = (section) => {
    <nav class="Header-nav">
       <a href="#" class="nav-link" @click.prevent="scrollTo('home')">Home</a>
       <a href="#" class="nav-link" @click.prevent="scrollTo('about')">About</a>
-      <a href="#" class="nav-link" @click.prevent="scrollTo('skills')">Skills</a>
+      <RouterLink to="/projects" class="nav-link">Projects</RouterLink>
     </nav>
     <nav class="Header-mobilenav">
       <a href="#" class="nav-link" @click.prevent="scrollTo('home')">Home</a>
       <a href="#" class="nav-link" @click.prevent="scrollTo('about')">About</a>
-      <a href="#" class="nav-link" @click.prevent="scrollTo('skills')">Skills</a>
+      <RouterLink to="/projects" class="nav-link">Projects</RouterLink>
     </nav>
   </header>
 
